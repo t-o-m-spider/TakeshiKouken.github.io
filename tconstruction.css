@@ -50,3 +50,41 @@ footer {
 .phone {
 	cursor: pointer;
 }
+
+/*iphone X*/
+
+@media (min-width: 0px) {
+
+	h1.main-title {
+		font-size: 35px;
+		position: absolute;
+		top: 5%;
+		left: 11%;
+	}
+	h2.sub-title {
+		font-size: 20px;
+		position: absolute;
+		top: 15%;
+		left: 35%;
+	}
+}
+
+/*ipad pro*/
+
+@media (min-width: 1024px) {
+
+	h1.main-title {
+		font-size: 80px;
+		position: absolute;
+		top: 5%;
+		left: 35%;
+	}
+
+	h2.sub-title {
+		font-size: 40px;
+		position: absolute;
+		top: 27%;
+		left: 57%;
+		text-align: center;
+	}
+}
