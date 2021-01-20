@@ -1,128 +1,144 @@
-li {
-	list-style: none;
-}
-.verdana {
-	font-family: verdana;
-	font-size: 25px;
-	text-align: center;
-	margin-bottom: 20px;
-}
-nav {
-	width: 100%;
-    height: 60px;
-    display: flex;
-    background: white;
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    border-bottom: 1px solid #666;
-}
-.nav-lists {
-	width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 0px 0px 0px;
-    cursor: pointer
-}
-.nav-list {
-	font-size: 18px;
-}
-.nav-list:hover {
-	border-bottom: 2px solid;
-}
-header {
-	text-align: center;
-	height: 400px;
-	margin: 200px 0 250px 0;
-}
-.main-title {
-	font-size: 30px;
-}
-.sub-title {
-	font-size: 15px;
-}
-.About {
-	text-align: center;
-}
-.Container-font {
-	font-family: 'Hiragino Maru Gothic ProN';
-}
-.vision {
-	font-size: 14px;
-	width: 80%;
-	margin:0 auto;
-	line-height: 2.3;
-	margin-bottom: 130px;
-}
-.Servise-container {
-	font-size: 14px;
-	width: 80%;
-	margin:0 auto;
-	line-height: 2.3;
-	margin-bottom: 130px;
-}
-.Offer {
-	text-align: center;
-}
-.Offer-container {
-	font-size: 14px;
-	width: 80%;
-	margin:0 auto;
-	line-height: 2.3;
-	margin-bottom: 130px;
-}
-.Offer-lists {
-	padding: 0;
-}
-.Offer-list {
-	margin-bottom: 50px;
-}
-.Salary {
-	line-height: 3;
-}
-.Contact {
-	width: 80%;
-	margin: 0 auto 100px  auto;
-	text-align: center;
-}
-.block {
-	text-align: center;
-}
-.Contact-container {
-	height: 200px;
-}
-input,textarea {
-	width: 60%;
-	height: 20%;
-	margin-bottom: 10px;
-}
-footer {
-	text-align: center;
-	height: 500px;
-}
-.icon {
-	border-radius: 50%;
-	border-width: 4px;
-	border-style: solid;
-	border-color: white;
-}
-.Producer {
-	font-size: 25px;
-}
-.sns {
-	width: 100%;
-	justify-content: space-between;
-}
-.a {
-	display: inline-block;
-	width: 10%;
-	color: black;
-}
-.mark {
-	margin-top:150px;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<title>タケシ工建</title>
+	<meta name="description" content="従業員を大切にする社長の人間性の元、コロナ渦の中でも安定して元請様からお仕事を頂いているタケシ工建のホームページです">
+	<script src="https://kit.fontawesome.com/4a97e7c20a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav>
+		<ul class="nav-lists">
+			<li class="nav-list">Home</li>
+			<li class="nav-list">About</li>
+			<li class="nav-list">Offer</li>
+			<li class="nav-list">Contact</li>
+		</ul>
+	</nav>
+	<header class="verdana">
+		<div class="container">
+		<h1 class="main-title">Takeshi Kouken</h1>
+		<h2 class="sub-title">lay the foundation</h2>
+		</div>
+	</header>
+	<main>
+		<div class="About">
+			<h1 class="verdana">About</h1>
+				<div class="Container-font">
+					<div class="vision">
+						当社代表の息子がこのHPを作成させて<br>
+						頂いております。<br>
+						私は今まで多くの人と関わってきました、<br>
+						その中で心から尊敬している人達の中の<br>
+						1人が我が社の代表、父です。<br>
+						今このコロナ渦の中でも、元請様から安定的にお仕事を頂いている中で、<br>
+						当社の次の目標は新しい人材の育成です。<br>
+						少しでも代表に対し興味を持って<br>
+						頂けたのならば、<br>
+						１度お会いして頂けると幸いです。
+					</div>
+				</div>
+			<div class="Servise">
+				<h2 class="verdana">Servise(事業)</h2>
+					<div class="Servise-container Container-font">
+						<h3>建物の基礎工事全般</h3>
+						<p>
+							様々な案件があるので、全ての業務を<br>
+							覚えるまでは大変ですが、<br>
+							基本的に代表が横に付いて丁寧に<br>
+							教えてくれます。<br>
+							働いてくれるスタッフの<br>
+							キャリアアップの為、<br>
+							意見・要望を取り入れ柔軟に対応、<br>
+							しっかり会社全体でバックアップする<br>
+							体制を整えていきます。<br>
+						</p>
+					</div>
+			</div>
+		</div>
+		<div class="Offer">
+			<h1 class="verdana">Offer</h1>
+			<div class="Offer-container Container-font">
+				<ul class="Offer-lists">
+					<li class="Offer-list">募集人数<p>経験者　　１名<br>
+								  未経験者　１名</p></li>
 
+					<li class="Offer-list">給与<p class="Salary">
+						日当¥7,000〜<br>
+						⚠️経験者の場合経験を考慮致します⚠️<br>
+						月給￥140,000〜￥300,000<br>
+						・元請監督様との打ち合わせ<br>
+						・案件の見積もり業務<br>
+						この２つが出来る様になれば<br>
+						月収￥300,000が可能です<br>
+						それまでしっかりサポート致します。</p>
+					</li>
+					<li class="Offer-list">勤務地<p>福井県越前市</li>
+					<li class="Offer-list">勤務時間
+						<p>8:00~17:30 休憩90分</p>
+					</li>
+					<li class="Offer-list">
+						休日<p>土日祝<br>
+						2ヶ月に１回程出勤有り、<br>
+						その分のお給料はもちろん支給致します。</p>
+					</li>
+					<li class="Offer-list">従業員数<p>2名</p></li>
+					<li class="Offer-list">応募方法
+						<p>代表TEL
+						<a href="tel:09097649856">090-9764-9856</a><br>
+						私が尊敬する代表に、是非一度<br>
+						お会いしてみてください。<br>
+						面談のみでも可能です。<br>
+						皆様からのご連絡を心より、<br>
+						お待ちしております。</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="Contact">
+			<h1 class="verdana">Contact</h1>
+			<p>⚠️実装中です⚠️</p>
+			<div class="Contact-container">
+				<div class="block">
+					<input disabled type="text" placeholder="Name">
+				</div>
 
+				<div class="block">
+					<input disabled type="text" placeholder="Email">
+				</div>
 
+				<div class="block">
+					<input disabled type="text" placeholder="Phone">
+				</div>
+
+				<div class="block">
+					<textarea disabled placeholder="Message"></textarea>
+				</div>
+
+				<div class="block">
+					<input disabled type="button" value="submit">
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<h1 class="Producer">制作者</h1>
+		<img class="icon" src="face.jpeg" width="140" height="140" alt="T.O.Mのアイコンです">
+		<p>T.O.M</p>
+		  <div class="sns">
+				<a class="a" href="https://twitter.com/tomvelspider" target="_blank">
+				<span class="fab fa-twitter-square fa-2x"></span>
+				</a>
+				<a class="a" href="https://www.instagram.com/t.o.mspider/" target="_blank">
+				<span class="fab fa-instagram fa-2x"></span></a>
+		  </div>
+			<p class="mark">(c)takeshi koukenn</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
