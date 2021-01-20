@@ -1,11 +1,14 @@
 li {
 	list-style: none;
 }
-.verdana {
+.verdana-title {
 	font-family: verdana;
 	font-size: 25px;
 	text-align: center;
 	margin-bottom: 20px;
+}
+.verdana {
+	font-family: verdana;
 }
 nav {
 	width: 100%;
@@ -39,14 +42,16 @@ header {
 }
 .main-title {
 	font-size: 30px;
+	display: none;
 }
 .sub-title {
 	font-size: 15px;
+	display: none;
 }
 .About {
 	text-align: center;
 }
-.Container-font {
+.Container-font  {
 	font-family: 'Hiragino Maru Gothic ProN';
 }
 .vision {
@@ -110,6 +115,7 @@ footer {
 }
 .Producer {
 	font-size: 25px;
+	font-family:'Hiragino Maru Gothic ProN';
 }
 .sns {
 	width: 100%;
