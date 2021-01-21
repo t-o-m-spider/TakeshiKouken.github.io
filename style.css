@@ -38,7 +38,7 @@ nav {
 header {
 	text-align: center;
 	height: 400px;
-	margin: 200px 0 250px 0;
+	margin: 250px 0 250px 0;
 }
 .main-title {
 	font-size: 30px;
@@ -50,6 +50,7 @@ header {
 }
 .About {
 	text-align: center;
+	display: none;
 }
 .Container-font  {
 	font-family: 'Hiragino Maru Gothic ProN';
@@ -89,19 +90,27 @@ header {
 }
 .Contact {
 	width: 80%;
-	margin: 0 auto 100px  auto;
+	margin: 0 auto 180px  auto;
 	text-align: center;
 }
 .block {
 	text-align: center;
 }
-.Contact-container {
-	height: 200px;
-}
-input,textarea {
+input {
 	width: 60%;
-	height: 20%;
+	height: 30px;
 	margin-bottom: 10px;
+	border:1px solid #bbb;
+}
+textarea {
+	width: 60%;
+	height: 60px;
+	margin-bottom: 10px;
+	border:1px solid #bbb;
+}
+.button {
+	color: white;
+	background: #444;
 }
 footer {
 	text-align: center;
@@ -117,15 +126,23 @@ footer {
 	font-size: 25px;
 	font-family:'Hiragino Maru Gothic ProN';
 }
+.Producer-name {
+
+}
 .sns {
 	width: 100%;
 	justify-content: space-between;
 }
 .a {
 	display: inline-block;
-	width: 10%;
 	color: black;
 }
+.sns-icon {
+	width: 25%;
+}
+span.fa-2x {
+		font-size: 2.7em;
+	}
 .mark {
 	margin-top:150px;
 }
