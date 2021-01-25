@@ -1,3 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*safariでの自動調節を全て1倍にする*/
+    -webkit-text-size-adjust: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
 li {
 	list-style: none;
 }
@@ -109,13 +130,15 @@ textarea {
 	border:1px solid #bbb;
 }
 .button {
-	color: white;
-	background: #444;
-	opacity: 0.8;
-  	border-radius: 4px;
-  	cursor: pointer;
-  	box-shadow: 0px 7px #444;
-  	border-color: grey;
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background-color: rgb(60,60,60);
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 0px 7px rgba(30,30,30);
 }
 .button:hover {
 	opacity: 1;
@@ -124,9 +147,6 @@ textarea {
 	position: relative;
 	top: 7px;
     box-shadow: none;
-}
-.button:after {
-	border-color: grey;
 }
 footer {
 	text-align: center;
