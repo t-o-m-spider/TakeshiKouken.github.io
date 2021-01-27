@@ -15,6 +15,9 @@ span.fa-2x {
 	.verdana-title {
 		font-size: 40px;
 	}
+	.nav-lists {
+		width: 50%;
+	}
 	.nav-list {
 		font-size: 30px;
 	}
