@@ -117,26 +117,31 @@
 		</div>
 		<div class="Contact" id="Contact">
 			<h1 class="verdana-title">Contact</h1>
-			<p>⚠準備中です⚠︎</p>
-			<div class="block">
-				<input disabled type="text" placeholder="Name">
-			</div>
+			<form id="form">
+				<p>準備中です</p>
+				<div class="block">
+					<input id="Name-form" type="text" placeholder="Name">
+					<p id="error-message" class="error-message"></p>
+				</div>
+				<div class="block">
+					<input id="Email-form" type="text" placeholder="Email">
+					<p id="error-message" class="error-message"></p>
+				</div>
 
-			<div class="block">
-				<input disabled type="text" placeholder="Email">
-			</div>
+				<div class="block">
+					<input id="Phone-form" type="text" placeholder="Phone">
+					<p id="error-message" class="error-message"></p>
+				</div>
 
-			<div class="block">
-				<input disabled type="text" placeholder="Phone">
-			</div>
+				<div class="block">
+					<textarea id="Message-form" placeholder="Message"></textarea>
+					<p id="error-message" class="error-message"></p>
+				</div>
 
-			<div class="block">
-				<textarea disabled placeholder="Message"></textarea>
-			</div>
-
-			<div class="block" >
-				<div class="button">submit</div>
-			</div>
+				<div class="block" >
+					<button type="button" class="button">submit</button>
+				</div>
+			</form>
 		</div>
 	</main>
 	<footer>
