@@ -115,30 +115,39 @@ header {
 	text-align: center;
 }
 .block {
-	text-align: center;
 }
 input {
 	width: 60%;
 	height: 30px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	border:1px solid #bbb;
+	outline: none;
 }
 textarea {
 	width: 60%;
 	height: 60px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	border:1px solid #bbb;
+	outline: none;
+}
+.error-message {
+  color: #F51414;
+  height: 5px;
+  display: none;
+}
+.active {
+	display: block;
 }
 .button {
     width: 50%;
     color: white;
-    margin: 0 auto;
     padding: 5px 10px;
     background-color: rgb(60,60,60);
     cursor: pointer;
     opacity: 0.8;
     border-radius: 10px;
     box-shadow: 0px 7px rgba(30,30,30);
+    outline: none;
 }
 .button:hover {
 	opacity: 1;
@@ -182,5 +191,3 @@ span.fa-2x {
 .mark {
 	margin-top:150px;
 }
-
-
