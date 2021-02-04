@@ -118,23 +118,37 @@ li {
 	font-size: 25px;
 	text-align: center;
 	margin-bottom: 20px;
+	opacity: 0;
+	transform: translateX(30px);
+	transition: 3s;
+}
+.verdana-title.show {
+	opacity: 1;
+	transform: none;
 }
 .Company {
 	text-align: center;
 	height: 500px;
 	margin: 300px 0 200px 0;
 }
+@keyframes titleAnimation {
+    0% {
+        letter-spacing: .2em;
+        opacity: 0;
+    }
+}
 .main-title {
 	font-size: 30px;
-	display: none;
+	white-space: nowrap;
+	animation: titleAnimation 1.5s;
 }
 .sub-title {
 	font-size: 15px;
-	display: none;
+	white-space: nowrap;
+	animation: titleAnimation 1.5s;
 }
 .About {
 	text-align: center;
-	display: none;
 }
 .Container-font  {
 	font-family: 'Hiragino Maru Gothic ProN';
@@ -145,6 +159,13 @@ li {
 	margin:0 auto;
 	line-height: 2.3;
 	margin-bottom: 130px;
+	opacity: 0;
+	transform: translateX(-30px);
+	transition: 3s;
+}
+.vision.show {
+	opacity: 1;
+	transform: none;
 }
 .Servise-container {
 	font-size: 14px;
@@ -152,6 +173,13 @@ li {
 	margin:0 auto;
 	line-height: 2.3;
 	margin-bottom: 130px;
+	opacity: 0;
+	transform: translateX(-30px);
+	transition: 3s;
+}
+.Servise-container.show {
+	opacity: 1;
+	transform: none;
 }
 .Offer {
 	text-align: center;
@@ -168,6 +196,19 @@ li {
 }
 .Offer-list {
 	margin-bottom: 50px;
+	opacity: 0;
+	transition: 3s;
+}
+.Offer-lists li:nth-of-type(odd) {
+    transform: translateX(-30px);
+}
+
+.Offer-lists li:nth-of-type(even) {
+    transform: translateX(30px);
+}
+ul .Offer-list.show {
+	opacity: 1;
+	transform: none;
 }
 .Salary {
 	line-height: 3;
@@ -177,7 +218,14 @@ li {
 	margin: 0 auto 180px  auto;
 	text-align: center;
 }
-.block {
+form {
+	opacity: 0;
+	transform: translateX(-30px);
+	transition: 3s;
+}
+form.show {
+	opacity: 1;
+	transform: none;
 }
 input {
 	width: 60%;
@@ -223,6 +271,13 @@ textarea {
 footer {
 	text-align: center;
 	height: 500px;
+	opacity: 0;
+	transform: translateY(40px);
+	transition: 2s;
+}
+footer.show {
+	opacity: 1;
+	transform: none;
 }
 .icon {
 	border-radius: 50%;
@@ -233,9 +288,6 @@ footer {
 .Producer {
 	font-size: 25px;
 	font-family:'Hiragino Maru Gothic ProN';
-}
-.Producer-name {
-
 }
 .sns {
 	width: 100%;
