@@ -120,7 +120,7 @@ li {
 	margin-bottom: 20px;
 	opacity: 0;
 	transform: translateX(30px);
-	transition: 3s;
+	transition: 2s;
 }
 .verdana-title.show {
 	opacity: 1;
@@ -140,12 +140,12 @@ li {
 .main-title {
 	font-size: 30px;
 	white-space: nowrap;
-	animation: titleAnimation 1.5s;
+	animation: titleAnimation 1s;
 }
 .sub-title {
 	font-size: 15px;
 	white-space: nowrap;
-	animation: titleAnimation 1.5s;
+	animation: titleAnimation 1s;
 }
 .About {
 	text-align: center;
@@ -161,7 +161,7 @@ li {
 	margin-bottom: 130px;
 	opacity: 0;
 	transform: translateX(-30px);
-	transition: 3s;
+	transition: 2s;
 }
 .vision.show {
 	opacity: 1;
@@ -175,7 +175,7 @@ li {
 	margin-bottom: 130px;
 	opacity: 0;
 	transform: translateX(-30px);
-	transition: 3s;
+	transition: 2s;
 }
 .Servise-container.show {
 	opacity: 1;
@@ -197,7 +197,7 @@ li {
 .Offer-list {
 	margin-bottom: 50px;
 	opacity: 0;
-	transition: 3s;
+	transition: 2s;
 }
 .Offer-lists li:nth-of-type(odd) {
     transform: translateX(-30px);
@@ -221,7 +221,7 @@ ul .Offer-list.show {
 form {
 	opacity: 0;
 	transform: translateX(-30px);
-	transition: 3s;
+	transition: 2s;
 }
 form.show {
 	opacity: 1;
@@ -240,11 +240,6 @@ textarea {
 	margin-bottom: 15px;
 	border:1px solid #bbb;
 	outline: none;
-}
-.error-message {
-  color: #F51414;
-  height: 5px;
-  display: none;
 }
 .active {
 	display: block;
