@@ -265,7 +265,7 @@ textarea {
 }
 footer {
 	text-align: center;
-	height: 500px;
+	height: 300px;
 	opacity: 0;
 	transform: translateY(40px);
 	transition: 2s;
@@ -299,5 +299,5 @@ span.fa-2x {
 		font-size: 2.7em;
 	}
 .mark {
-	margin-top:150px;
+	text-align: center;
 }
